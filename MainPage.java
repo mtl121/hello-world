@@ -14,7 +14,7 @@ import lyons.tools.ScannerChoice;
 
 /**
  * 商超购物管理系统主界面            
- * @author 张磊
+ * @author 王俊楠
  * @version 1.0
  */
 
