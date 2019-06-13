@@ -58,7 +58,7 @@ public final class SalesManDao
 	 * @param sName 用户名
 	 * @return boolean
 	 */
-		public boolean addSalesMan(SalesMan sName)
+		public boolean addSalesman(SalesMan sName)
 		{
 			boolean bool = false;
 			conn = DbConn.getconn();
