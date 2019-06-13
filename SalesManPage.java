@@ -46,11 +46,11 @@ public final class SalesManPage extends ScannerChoice
 	public static void updateSalesManPage()
 	{
 		System.out.println("\t正在执行更改售货员操作\n");
-		System.out.println("请输入想要更改的售货员名字");
+		System.out.println("请输入想要更改的售货员工号");
 		String sName = ScannerInfoString();
 
 		//调用精确查找售货员函数
-		ArrayList<SalesMan> salesManList = new QueryPrint().querySalesMan(sName);
+		ArrayList<SalesMan> salesManList = new QueryPrint().querySalesMan(sID);
 			if (salesManList.size() <= 0)
 			{
 				System.err.println("\t！！查无此人！！");
@@ -130,11 +130,11 @@ public final class SalesManPage extends ScannerChoice
 	{
 		
 		System.out.println("\t正在执行 删除售货员 操作\n");
-		System.out.println("请输入想要删除的售货员名字");
+		System.out.println("请输入想要删除的售货员工号");
 		String sName = ScannerInfoString();
 		
 		//调用精确查找售货员函数
-		ArrayList<SalesMan> salesManList = new QueryPrint().querySalesMan(sName);
+		ArrayList<SalesMan> salesManList = new QueryPrint().querySalesMan(sID);
 			if (salesManList.size() <= 0)
 			{
 				System.err.println("\t！！查无此人！！");
