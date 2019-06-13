@@ -87,10 +87,7 @@ public final class Goods
 		{
 			this.gprice = gprice;
 		}
-		public int getGnum()
-		{
-			return gnum;
-		}
+		
 		public void setGnum(int gnum)
 		{
 			this.gnum = gnum;
