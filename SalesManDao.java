@@ -14,7 +14,7 @@ import lyons.entity.SalesMan;
  * 数据库SalesMan表操作
  * @author lyons(zhanglei)
  */
-public final class SalesManDao
+public final class SalesManDaos
 {
 	 Connection        conn  = null;
 	 PreparedStatement pstmt = null;
