@@ -56,6 +56,15 @@ public final class GsalesDao
 				}
 		return GsalesList;
 	}
+	/*
+	*也不知道有什么用，就是随便写写
+	*/
+	public boolean shoppingopisuit(Gsales gSales)
+	{
+		return false;
+	}
+	
+	
 	
 	/**
 	 *2.购物结算-向sales表中插入商品数据！
