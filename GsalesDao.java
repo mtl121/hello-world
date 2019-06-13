@@ -61,6 +61,10 @@ public final class GsalesDao
 	*/
 	public boolean shoppingopisuit(Gsales gSales)
 	{
+		int r = 0;
+		
+		
+		
 		return false;
 	}
 	
