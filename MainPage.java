@@ -74,56 +74,7 @@ public final class MainPage extends ScannerChoice
 			
 		}
 		
-	/**
-	 * 1.商品维护界面
-	 */
-		public static void MaintenancePage()
-		{
-			
-			System.out.println("***************************\n");
-			System.out.println("\t 1.添加商品\n");
-			System.out.println("\t 2.更改商品\n");
-			System.out.println("\t 3.删除商品\n");
-			System.out.println("\t 4.查询商品\n");
-			System.out.println("\t 5.显示所有商品\n");
-			System.out.println("***************************");
-			
-			System.out.println("\n请输入选项,或者按 0 返回上一级菜单.");
-			do
-			{
-				String choice = ScannerInfoString();
-				String regex = "[0-5]";
-				if (choice.matches(regex))
-				{
-					int info = Integer.parseInt(choice);
-					switch (info)
-					{
-					case 0:
-						mianPage();
-						break;
-					case 1:
-						GoodsPage.addGoodsPage();
-						break;
-					case 2:
-						GoodsPage.upateGoodsPage();
-						break;
-					case 3:
-						GoodsPage.deleteGoodsPage();
-						break;
-					case 4:
-						GoodsPage.queryGoodsPage();
-						break;
-					case 5:
-						GoodsPage.displayGoodsPage();
-						break;
-					default:
-						break;
-					}
-				}
-				System.err.println("!输入有误!");
-				System.out.println("重新输入或按 0 返回上一级菜单.");
-			}while(true);
-		}
+	
 
 	/**
 	 * 2.前台收银登陆界面
