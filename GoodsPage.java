@@ -314,7 +314,7 @@ public final class GoodsPage extends ScannerChoice
 					{
 						MainPage.MaintenancePage();
 					}
-					System.out.println("输入有误！");
+					System.out.println("输入有误！!!!!!!!!!!!!");
 				} while (true);
 			}
 	}
