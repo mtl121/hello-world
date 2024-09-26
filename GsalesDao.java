@@ -68,6 +68,9 @@ public final class GsalesDao
 		return false;
 	}
 	
+	/*
+	*buzhidao gailesxieshenme
+	*/
 	
 	
 	/**
